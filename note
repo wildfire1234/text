@@ -1,0 +1,30 @@
+
+
+users created: (password ptc)
+pdsadmin
+test1
+designer
+
+Product created:
+Test Product
+
+folder created in test product:
+cad files
+part
+document
+
+external vault ceated:
+d:\ptc\filevault
+
+config:
+
+xconfmanager -s wt.fv.forcecontentToVault -t codebase\wt.properties
+
+xconfmanager -s wt.manager.monitor.start.Methodserver=4 -t codebase\wt.properties
+
+xconfmanager -s wt.manager.maxheap=1024 -t codebase\wt.properties
+xconfmanager -s wt.manager.minheap=1024 -t codebase\wt.properties
+xconfmanager -s wt.method.maxheap=3072 -t codebase\wt.properties
+xconfmanager -s wt.method.minheap=3072 -t codebase\wt.properties
+
+openDJ, HTTP. Windchill all configure to start as service
